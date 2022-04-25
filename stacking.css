@@ -1,0 +1,36 @@
+        section {
+            position: absolute;
+            z-index: 6;
+            width: 200px;
+        }
+        
+        #red {
+            z-index: 1;
+            background-color: red;
+        }
+        
+        #blue {
+            z-index: 2;
+            top: 100px;
+            /*position: absolute;*/
+            left: 50%;
+            background-color: blue;
+        }
+        
+        #green {
+            z-index: 5;
+            top: 200px;
+            left: 40px;
+            background-color: hsl(248 53% 58%);
+        }
+        
+        div {
+            position: fixed;
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            padding: 0.5rem;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+        }

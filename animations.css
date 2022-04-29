@@ -1,34 +1,38 @@
-                                                    div {
-                                                        background-color: lightblue;
-                                                        width: 20%;
-                                                        height: 3rem;
-                                                        border-radius: 12px;
-                                                        padding: 12px;
-                                                        margin: 4em;
-                                                        animation-name: move;
-                                                        animation-duration: 3s;
-                                                        animation-fill-mode: forwards;
-                                                    }
-                                                    
-                                                    @keyframes move {
-                                                        50% {
-                                                            transform: translate(200px, 0px);
-                                                        }
-                                                        100% {
-                                                            transform: translate(200px, 300px);
-                                                        }
-                                                    }
-                                                    /*                                                     
-                                                    transition-property: width;
-                                                    transition-duration: 1s;
-                                                    transition-timing-function: ease;
-                                                    transition-delay: 1s;
-                                                    transition: width 1s ease 1s,
-                                                    transform 1s ease 0s;
-                                                } 
-                                                    
-                                                    div:hover {
-                                                        width: 50%;
-                                                        transform: rotate(180deg);
-                                                    }
-                                                    */
+                                            div {
+                                                background-color: lightblue;
+                                                width: 20%;
+                                                height: 3rem;
+                                                line-height: 3rem;
+                                                font-size: x-large;
+                                                border-radius: 12px;
+                                                border: 1px solid black;
+                                                padding: 12px;
+                                                padding-right: 25px;
+                                                margin: 4em;
+                                                text-align: center;
+                                                animation-name: move;
+                                                animation-duration: 5s;
+                                                animation-fill-mode: backwards;
+                                            }
+                                            
+                                            @keyframes move {
+                                                25% {
+                                                    transform: translate(100px, 50px);
+                                                }
+                                                100% {
+                                                    transform: translate(150px, -100px);
+                                                }
+                                                /*   Learning more about this
+                                                transition-property: width;
+                                                transition-duration: 1s;
+                                                transition-timing-function: ease;
+                                                transition-delay: 1s;
+                                                transition: width 1s ease 1s,
+                                                transform 1s ease 0s;*/
+                                            }
+                                            
+                                            div:hover {
+                                                width: 90%;
+                                                transform: rotate(180deg);
+                                                color: green;
+                                            }

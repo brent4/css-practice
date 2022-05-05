@@ -2,12 +2,11 @@
                                                 background-color: lightblue;
                                                 width: 20%;
                                                 height: 3rem;
-                                                line-height: 3rem;
-                                                font-size: x-large;
+                                                line-height: 1.5rem;
+                                                font-size: 5vw;
                                                 border-radius: 12px;
                                                 border: 1px solid black;
                                                 padding: 12px;
-                                                padding-right: 25px;
                                                 margin: 4em;
                                                 text-align: center;
                                                 animation-name: move;
@@ -17,7 +16,7 @@
                                             
                                             @keyframes move {
                                                 25% {
-                                                    transform: translate(100px, 50px);
+                                                    transform: translate(100px, 0px);
                                                 }
                                                 100% {
                                                     transform: translate(150px, -100px);
@@ -32,7 +31,7 @@
                                             }
                                             
                                             div:hover {
-                                                width: 90%;
+                                                width: 40%;
                                                 transform: rotate(180deg);
                                                 color: green;
                                             }

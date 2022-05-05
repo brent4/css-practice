@@ -1,0 +1,36 @@
+h1 {
+    color: aquamarine;
+}
+
+
+/* #red {
+    color: red;
+} */
+
+a[href^="https://algoexpert.io"] {
+    color: rgb(38, 164, 164);
+}
+
+
+/* The ^ before the = above means that this selects anything
+that starts with the given URL" */
+
+
+/* Combinators use the context of the element 
+in the DOM to decide if the element is selected or not. */
+
+
+/* footer>p {
+    color: red;
+} */
+
+
+/* In the footer>p syntax, the > is a direct child selector.  */
+
+h2~p {
+    background-color: cyan;
+}
+
+
+/* The ~ selector selects siblings of the two selectors
+The + selector, selects items that are direct siblings. */
